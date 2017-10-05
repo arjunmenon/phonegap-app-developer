@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.adobe.phonegap.app" version="1.8.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>PhoneGap</name>
+<widget id="com.phonegap.hello.upnp" version="1.8.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>PhoneGap Hello Upnp</name>
     <description>
         The PhoneGap Developer app is a testing utility for web developers and designers using the PhoneGap framework. After installing this app on your device you will be able to connect it to the PhoneGap desktop app to instantly view and test your work
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        Adobe PhoneGap Team
+        My PhoneGap Team
     </author>
     <hook src="resources/script/compile-less.js" type="before_prepare" />
     <hook src="resources/script/before-test-runner.js" type="before_prepare" />
@@ -107,4 +107,6 @@
     <plugin name="phonegap-plugin-contentsync" spec="^1.4.0" />
     <plugin name="phonegap-plugin-mobile-accessibility" spec="^1.0.5" />
     <plugin name="phonegap-plugin-push" spec="^2.0.0" />
+    <plugin spec="https://github.com/scottdermott/cordova-plugin-discovery.git" />
+    <plugin spec="https://github.com/salbahra/cordova-plugin-networkinterface.git" />
 </widget>
